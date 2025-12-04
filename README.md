@@ -13,6 +13,7 @@ Este proyecto tiene como objetivo analizar el comportamiento y las característi
 - Tareas del Proyecto
 - Visualizaciones Solicitadas
 - Autoría
+- Funcionamiento 
 
 ## 📝 Descripción del Proyecto
 
@@ -106,3 +107,29 @@ Responder mediante visualizaciones a:
 ## 👤 Autoría
 
 Proyecto realizado como parte del Módulo 3 del curso Data Analyst por **Elena Pavón Fernández**
+
+
+## Funcionamiento.
+
+El proyecto comienza con el ipynb de 01_exploracion. 
+Arranca importando las librerías que van a ser necesarias para el EDA.  
+- Fase uno: explorar los csv para conocerlos y ver qué columna o columnas pueden necesitar limpieza. 
+
+![alt text](image-1.png)
+Imagen 1: Visualización de uno de los CSV
+- Para explorarlo vamos a usar métodos como: .head(), .size(), .shape(), .unique()... 
+- Durante el proceso observo que tenemos una categoría dentro de la columna Education sin ningún dato y decido imputarlos calculando la media entre las medianas de las categorias superior e inferior de la misma.
+- Los salarios están muy dispersos. 
+Boxplot Salary antes de la corrección:
+![alt text](image.png)
+
+- **La fase de visualización es bastante interesante y esclarecedora**
+![alt text](image-2.png)
+Gráfico que muestra la relación absolutamente proporcional entre distancia volada y puntos acumulados
+
+![alt text](image-3.png)
+Gráfico que muestra la cantidad de clientes según género y estado civil
+
+![alt text](image-4.png)
+Gráfica que muestra la evolución de reserva de vuelos durante el año, mostrando la diferencia entre dos años. 
+
