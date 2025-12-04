@@ -59,24 +59,19 @@ Incluye datos demográficos y de membresía.
 
 ## 📁 Estructura del Repositorio
 
-(🚨🚨🚨🚨 ADAPTAR AL TERMINAR EL PROYECTO 🚨🚨🚨🚨)
-
-/
 ├── data/
 │   ├── Customer Flight Analysis.csv
 │   ├── Customer Loyalty History.csv
 │
 ├── notebooks/
 │   ├── 01_exploracion.ipynb
-│   ├── 02_limpieza.ipynb
 │   ├── 03_visualizaciones.ipynb
+│   ├── df_clientes_vuelos_visualización.ipynb
 │
-├── src/
-│   ├── cleaning.py
-│   ├── utils.py
+├── imagenes/
 │
 ├── README.md
-└── .gitignore
+
 
 ## ▶️ Instrucciones de Uso
 
